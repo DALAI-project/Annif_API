@@ -1,1 +1,1 @@
-Annif and this software comes under MIT license
+Annif as it is with precompiled models.
