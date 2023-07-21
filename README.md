@@ -1,7 +1,7 @@
 # Annif_API
 Instructions for pretrained models for using annif software (annif.org) for automatic subject indexing as a local server. It will be used later under the repo DOCUMENT ANALYSIS.
 This API contains models in finnish, english and swedish. It uses the annif version 0.59, provided by National Library of Finland. 
-* Install annif https://github.com/NatLibFi/Annif/blob/main/README.md
+* Install basic annif, https://github.com/NatLibFi/Annif/blob/main/README.md
 * pip install annif[voikko]
 * pip install annif[nn]
 * pip install annif[omikuji]
@@ -15,4 +15,4 @@ This API contains models in finnish, english and swedish. It uses the annif vers
 * On command line: annif run
 
   Annif API is now running on default address and port. You can change them following instructions given in annif pages.
-  This will be used, where the client code is given.
+  This will be used by Document analysis API. In that repo client code is also given.
