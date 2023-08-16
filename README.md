@@ -10,9 +10,20 @@ This API contains models in Finnish, English and Swedish. It uses the Annif vers
   - pip install annif[pycld3]
 - Download precompiled models from https://annif.org/download/models/ (use the versions in folder `finto-ai-2022-11/`)
 - Extract the projects and vocabs under `data` folder.
-- Place the given `projects.toml` file to your venv root. 
-- On command line type `annif`: if succesfull you have now access to the Annif command line features.
-- On command line type: `annif run`
+- Place the given `projects.toml` file to your venv root. You should now have the following folder structure:
+```
+├──annif-venv 
+      ├──projects.toml
+      ├──data
+      |   ├──projects
+      |   └──vocabs
+      ├──bin
+      ├──include
+      ├──lib
+      └──lib64
+```
+- On command line type `annif`: if installation was succesfull, you have now access to the Annif command line features.
+- On command line type `annif run`
 
-  Annif API is now running on default address and port. You can change them following instructions given in annif pages.
+  Annif API is now running on default address and port. You can change them following instructions given in Annif pages.
   This will be used by Document analysis API. In that repo client code is also given.
