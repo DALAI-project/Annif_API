@@ -26,4 +26,4 @@ This API contains models in Finnish, English and Swedish. It uses the Annif vers
 - On command line type `annif run`
 
   Annif API is now running on default address and port. You can change them following instructions given in Annif pages.
-  This will be used by Document analysis API. In that repo client code is also given.
+  This will be used by [Document-analysis_API](https://github.com/DALAI-project/Document-analysis_API). In that repo client code is also given.
