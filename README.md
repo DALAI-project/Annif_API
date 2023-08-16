@@ -1,6 +1,6 @@
 # Annif_API
 Instructions for pretrained models for using [Annif software](https://annif.org/) for automatic subject indexing as a local server. It is used also in the [Document-analysis_API](https://github.com/DALAI-project/Document-analysis_API) repository.
-This API contains models in finnish, english and swedish. It uses the annif version 0.59, provided by National Library of Finland. 
+This API contains models in Finnish, English and Swedish. It uses the Annif version 0.59, provided by National Library of Finland. 
 * Install basic Annif following the instructions at https://github.com/NatLibFi/Annif/blob/main/README.md
 * pip install annif[voikko]
 * pip install annif[nn]
