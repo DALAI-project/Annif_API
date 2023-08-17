@@ -39,7 +39,7 @@ This API contains models in Finnish, English and Swedish. It uses the Annif vers
 - On command line type `annif run`
 - Annif API is now running on default address and port. You can change them following instructions given in Annif pages.
 - You can test the API
-  - by using the command line and a text file containing the input. If the file name is `document.txt` and the used model is `yso-bonsai-fi`, you can type `cat document.txt | annif suggest yso-bonsai-fi` in the command line.
-  - by using the test server which is running by default at http://localhost:5000/ 
+  - by using the command line and a text file containing the input. If the file name is `document.txt` and the used model is `yso-fi`, you can type `cat document.txt | annif suggest yso-fi` in the command line.
+  - by using the web user interface which is running by default at http://localhost:5000/ 
 
   This API will be used by the [Document-analysis_API](https://github.com/DALAI-project/Document-analysis_API). In that repository, client code for accessing the API is also given.
