@@ -16,11 +16,24 @@ This API contains models in Finnish, English and Swedish. It uses the Annif vers
       ├──projects.cfg
       ├──data
       |   ├──projects
+      |   |  ├──yso-en
+      |   |  ├──yso-fi
+      |   |  ├──yso-sv
+      |   |  ├──yso-bonsai-en
+      |   |  ├──yso-bonsai-fi
+      |   |  ├──yso-bonsai-sv
+      |   |  ├──yso-fasttext-en
+      |   |  ├──yso-fasttext-fi
+      |   |  ├──yso-fasttext-sv
+      |   |  ├──yso-mllm-en
+      |   |  ├──yso-mllm-fi
+      |   |  └──yso-mllm-sv
       |   └──vocabs
+      |      ├──yso-en
+      |      ├──yso-fi
+      |      └──yso-sv
       ├──bin
-      ├──include
-      ├──lib
-      └──lib64
+      ...
 ```
 - On command line type `annif`: if installation was succesfull, you have now access to the Annif command line features.
 - On command line type `annif run`
