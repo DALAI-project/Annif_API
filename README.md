@@ -10,7 +10,7 @@ This API contains models in Finnish, English and Swedish. It uses the Annif vers
   - pip install annif[pycld3]
 - Download precompiled models from https://annif.org/download/models/ (use the versions in folder `finto-ai-2022-11/`)
 - Extract the projects and vocabs under `data` folder.
-- Place the given `projects.toml` file to your venv root. You should now have the following folder structure:
+- Place the `projects.cfg` file included in this repository to your venv root. You should now have the following folder structure:
 ```
 ├──annif-venv 
       ├──projects.cfg
