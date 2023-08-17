@@ -13,7 +13,7 @@ This API contains models in Finnish, English and Swedish. It uses the Annif vers
 - Place the given `projects.toml` file to your venv root. You should now have the following folder structure:
 ```
 ├──annif-venv 
-      ├──projects.toml
+      ├──projects.cfg
       ├──data
       |   ├──projects
       |   └──vocabs
