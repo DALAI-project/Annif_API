@@ -8,8 +8,10 @@ This API contains models in Finnish, English and Swedish. It uses the Annif vers
   - pip install annif[omikuji]
   - pip install annif[fasttext]
   - pip install annif[pycld3]
-- Download precompiled models from https://annif.org/download/models/ (use the versions in folder `finto-ai-2022-11/`)
-- Extract the projects and vocabs under `data` folder.
+- NB! If you encounter a following error: `RuntimeError: Unsupported compiler -- at least C++11 support is needed!`. Then you need to install c++11 library. This can be done on ubuntu by running a command `sudo apt install g++`
+- Download precompiled models from https://annif.org/download/models/ (use the versions in folder `finto-ai-2022-11/`) into the created virtual environment folder. 
+- Extract the projects and vocabs under `data` folder in the created virtual environment. Note that during extraction in the `data/vocabs/` folder, the vocabularies are all named `yso` between all the models. This will launch a question during extraction process, that asks whether to overwrite the files. As the files in the `yso` folder are the same, you can overwrite them.
+- After the extraction, you need to copy and rename the folders as presented in the folder tree below. 
 - Place the `projects.cfg` file included in this repository to your venv root. You should now have the following folder structure:
 ```
 ├──annif-venv 
